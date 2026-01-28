@@ -17,6 +17,8 @@ file.create(".env")
 usethis::use_git_ignore(".env")
 # Also 'vaccinate' your computer's global .gitignore file - which helps keep sensitive files out. 
 # Won't change your repository's .gitignore
+
+# NEW -----------------------------------------------------------------------
 # Note: This may timeout when run non-interactively, but it's usually safe to skip
 tryCatch({
   usethis::git_vaccinate()

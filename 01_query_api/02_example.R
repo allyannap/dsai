@@ -12,7 +12,7 @@ library(jsonlite)
 
 # Create request object
 req = request("https://reqres.in/api/users/2") |>
-  req_headers(`x-api-key` = "reqres-free-v1") |>
+  # req_headers(`x-api-key` = "reqres-free-v1") |>
   req_method("GET")
 
 # Execute request and store result as object
