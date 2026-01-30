@@ -6,7 +6,9 @@
 # !pip install requests # install library if haven’t yet
 
 # Load requests library
+import os
 import requests
+from dotenv import load_dotenv
 
 # Execute query and save response as object
 response = requests.get(
