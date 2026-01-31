@@ -31,7 +31,9 @@ curl -X GET "https://reqres.in/api/users/2"
 # 2. GET request with custom header
 #    Fetches user with id=2, using an API key in the header
 curl -X GET "https://reqres.in/api/users/2" \
-     -H "x-api-key: $TEST_API_KEY"
+     -H "x-api-key: $TEST_API_KEY" # $ will print the value of the variable
+     # returns a JSON
+     # not nicely formatted tho b/c terminal
 
 # 3. GET request with query parameters
 #    Fetches users on page 1, with id=5 (note: this API ignores id in query string)
