@@ -17,36 +17,30 @@ python --version || echo "⚠️ Python not found. Please install Python manuall
 
 
 # --- PIP INSTALLATION (if missing) ---
-# Try to install pip if not found
-if ! command -v pip &> /dev/null; then
+# Use python -m pip so pip works even when Scripts is not on PATH (e.g. Windows user install)
+if ! python -m pip --version &> /dev/null; then
   echo "⚠️ pip not found. Attempting to install pip..."
-  # Download get-pip.py
-  curl -O https://bootstrap.pypa.io/get-pip.py
-  # Try to use python to install pip
+  curl -sS -O https://bootstrap.pypa.io/get-pip.py
   python get-pip.py
-  # Clean up
-  rm get-pip.py
-  # Re-check pip
-  pip --version || echo "❌ pip installation failed. Please install pip manually: https://pip.pypa.io/en/stable/installation/"
+  rm -f get-pip.py
+  python -m pip --version || echo "❌ pip installation failed. Please install pip manually: https://pip.pypa.io/en/stable/installation/"
 else
   echo "✅ pip is already installed."
 fi
 
 # Ensure pip is available
-pip --version || echo "⚠️ pip not found. Please ensure pip is installed."
+python -m pip --version || echo "⚠️ pip not found. Please ensure pip is installed."
 
 # Install Python packages
-pip install --upgrade pip
-pip install fastapi uvicorn pydantic pandas requests matplotlib shiny
+python -m pip install --upgrade pip
+python -m pip install fastapi uvicorn pydantic pandas requests matplotlib shiny
 
 # --- R DEPENDENCIES ---
 # Ensure R is available
 R --version || echo "⚠️ R not found. Please install R manually."
 
-# Install R packages (run in R)
-R -q -e 'install.packages(c(
-  "shiny", "plumber", "jsonlite", "httr", "httr2", "dplyr", "readr", "googlesheets4", "ollamar", "future", "parallel", "stringr", "ggplot2"
-), repos = c(CRAN = "https://packagemanager.posit.co/cran/latest"))'
+# Install R packages (run in R; single line avoids quote/newline issues in Git Bash)
+R -q -e "install.packages(c('shiny', 'plumber', 'jsonlite', 'httr', 'httr2', 'dplyr', 'readr', 'googlesheets4', 'ollamar', 'future', 'parallel', 'stringr', 'ggplot2'), repos = c(CRAN = 'https://packagemanager.posit.co/cran/latest'))"
 
 # --- DONE ---
 echo "✅ All dependencies installation commands have been run. If you see errors above, please install Python and R manually first."

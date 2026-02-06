@@ -8,15 +8,22 @@ export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"
 alias python='/Library/Frameworks/Python.framework/Versions/3.13/bin/python3'
 alias python3='/Library/Frameworks/Python.framework/Versions/3.13/bin/python3'
 
-# Add R to your Path for this project
-export PATH="/usr/local/bin:$PATH"
-alias Rscript='/usr/local/bin/Rscript'
+# Add R to your Path for this project (previous laptop - Mac)
+# export PATH="/usr/local/bin:$PATH"
+# alias Rscript='/usr/local/bin/Rscript'
+# This laptop (Windows - R 4.5.2):
+export PATH="/c/Users/amp388/AppData/Local/Programs/R/R-4.5.2/bin:$PATH"
+alias Rscript='/c/Users/amp388/AppData/Local/Programs/R/R-4.5.2/bin/Rscript.exe'
 
-# Add R libraries to your path for this project
-export R_LIBS_USER="/Users/allyanna/Library/R/arm64/4.4/library"
+# Add R libraries to your path for this project (previous laptop - Mac)
+# export R_LIBS_USER="/Users/allyanna/Library/R/arm64/4.4/library"
+# This laptop (Windows):
+export R_LIBS_USER="/c/Users/amp388/Documents/R/win-library/4.5"
 
-# Add pip scripts to PATH (for uvicorn and other pip-installed tools)
-export PATH="$PATH:/Users/allyanna/Library/Python/3.13/bin"
+# Add pip scripts to PATH (previous laptop - Mac)
+# export PATH="$PATH:/Users/allyanna/Library/Python/3.13/bin"
+# This laptop (Windows - user install):
+export PATH="$PATH:/c/Users/amp388/AppData/Roaming/Python/Python313/Scripts"
 
 echo "✅ Local .bashrc loaded."
 
