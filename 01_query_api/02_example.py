@@ -1,4 +1,4 @@
-# 02_example_python.py
+# 02_example.py
 # Simple example of making an API request in Python
 # Pairs with 02_example.R
 # Tim Fraser
@@ -42,7 +42,6 @@ print(response.status_code)
 
 # Extract the response as JSON and print
 print(response.json())
-
 
 # Clear environment (optional in short scripts, but shown for parity
 # with the R example that clears its workspace)
