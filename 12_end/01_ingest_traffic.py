@@ -17,11 +17,11 @@
 import sqlite3
 import time
 from datetime import datetime
+from typing import Optional
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
-
 
 # 1. CONFIG ###################################
 
@@ -59,7 +59,7 @@ def get_with_retry(url: str, params: dict, max_attempts: int = 5, timeout: int =
     raise RuntimeError("Failed to fetch traffic payload after retries.")
 
 
-def parse_bxl_time_to_utc(end_time: str) -> str | None:
+def parse_bxl_time_to_utc(end_time: str) -> Optional[str]:
     """Convert Brussels-local timestamp to UTC string format used in SQLite."""
     if not end_time:
         return None
