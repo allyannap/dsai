@@ -1,941 +1,941 @@
 {
   "metro_id": 948,
-  "test_rmse": 10.425566115098546,
-  "test_r_squared": 0.2757988768984355,
-  "train_rmse": 10.312378977560924,
-  "train_r_squared": 0.26667058279197764,
-  "residual_standard_error_default": 10.425566115098546,
+  "test_rmse": 10.154117474313022,
+  "test_r_squared": 0.28557369076919203,
+  "train_rmse": 10.379343426972945,
+  "train_r_squared": 0.2645324905749482,
+  "residual_standard_error_default": 10.154117474313022,
   "standard_error_method": "Residual SD on held-out test split by day_of_week/hour_of_day; fallback to test RMSE.",
   "standard_error_by_hour_day": [
     {
       "day_of_week": 1,
       "hour_of_day": 0,
-      "standard_error": 2.6886002731107923,
-      "n": 21
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 1,
-      "standard_error": 2.27629929085313,
-      "n": 26
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 2,
-      "standard_error": 1.7656860023298395,
-      "n": 17
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 3,
-      "standard_error": 8.555699854482976,
-      "n": 5
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 4,
-      "standard_error": 11.216881075086407,
-      "n": 20
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 5,
-      "standard_error": 15.47578754054216,
-      "n": 9
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 6,
-      "standard_error": 15.972263168719635,
-      "n": 34
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 7,
-      "standard_error": 11.551532733656257,
-      "n": 18
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 8,
-      "standard_error": 11.907980517283358,
-      "n": 5
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 9,
-      "standard_error": 9.624752961256585,
-      "n": 24
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 11,
-      "standard_error": 12.470315630721805,
-      "n": 19
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 12,
-      "standard_error": 9.772858943514152,
-      "n": 19
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 13,
-      "standard_error": 13.688230238377185,
-      "n": 17
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 14,
-      "standard_error": 8.42049653552342,
-      "n": 7
-    },
-    {
-      "day_of_week": 1,
-      "hour_of_day": 15,
-      "standard_error": 11.641097521932867,
+      "standard_error": 2.1933093855190746,
       "n": 12
     },
     {
       "day_of_week": 1,
+      "hour_of_day": 1,
+      "standard_error": 3.2361913529540356,
+      "n": 27
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 2,
+      "standard_error": 5.716089940731017,
+      "n": 20
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 3,
+      "standard_error": 7.14142842854285,
+      "n": 4
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 4,
+      "standard_error": 11.48329642855643,
+      "n": 27
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 5,
+      "standard_error": 10.49829918197637,
+      "n": 8
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 6,
+      "standard_error": 10.992009614366195,
+      "n": 24
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 7,
+      "standard_error": 15.169386741646711,
+      "n": 17
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 8,
+      "standard_error": 12.05197079319395,
+      "n": 9
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 9,
+      "standard_error": 14.439832822087121,
+      "n": 19
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 11,
+      "standard_error": 11.465738436521951,
+      "n": 20
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 12,
+      "standard_error": 10.334440168425731,
+      "n": 18
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 13,
+      "standard_error": 10.90280021974075,
+      "n": 20
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 14,
+      "standard_error": 13.074245578078202,
+      "n": 13
+    },
+    {
+      "day_of_week": 1,
+      "hour_of_day": 15,
+      "standard_error": 10.116352095006626,
+      "n": 24
+    },
+    {
+      "day_of_week": 1,
       "hour_of_day": 16,
-      "standard_error": 14.882384893455722,
+      "standard_error": 15.909649872461918,
       "n": 19
     },
     {
       "day_of_week": 1,
       "hour_of_day": 17,
-      "standard_error": 11.709742329951368,
-      "n": 38
+      "standard_error": 12.373067648336164,
+      "n": 33
     },
     {
       "day_of_week": 1,
       "hour_of_day": 18,
-      "standard_error": 9.357281235551923,
-      "n": 33
+      "standard_error": 9.10204656028652,
+      "n": 44
     },
     {
       "day_of_week": 1,
       "hour_of_day": 19,
-      "standard_error": 6.855654600401045,
-      "n": 15
+      "standard_error": 6.67553522668936,
+      "n": 22
     },
     {
       "day_of_week": 1,
       "hour_of_day": 20,
-      "standard_error": 8.531803248239301,
-      "n": 33
+      "standard_error": 8.859975150296163,
+      "n": 35
     },
     {
       "day_of_week": 1,
       "hour_of_day": 21,
-      "standard_error": 5.302237781370812,
-      "n": 51
+      "standard_error": 7.256722948582286,
+      "n": 54
     },
     {
       "day_of_week": 1,
       "hour_of_day": 22,
-      "standard_error": 3.2144268046635753,
-      "n": 36
+      "standard_error": 3.634970767106437,
+      "n": 34
     },
     {
       "day_of_week": 1,
       "hour_of_day": 23,
-      "standard_error": 2.632951278021003,
+      "standard_error": 3.382519983893878,
       "n": 37
     },
     {
       "day_of_week": 2,
       "hour_of_day": 0,
-      "standard_error": 1.2649110640673518,
-      "n": 16
+      "standard_error": 1.640825308284734,
+      "n": 13
     },
     {
       "day_of_week": 2,
       "hour_of_day": 1,
-      "standard_error": 1.5643886435144527,
-      "n": 31
+      "standard_error": 1.655518269527927,
+      "n": 28
     },
     {
       "day_of_week": 2,
       "hour_of_day": 4,
-      "standard_error": 15.586903699951664,
-      "n": 27
+      "standard_error": 13.388676807909983,
+      "n": 25
     },
     {
       "day_of_week": 2,
       "hour_of_day": 5,
-      "standard_error": 17.270574028466086,
-      "n": 11
+      "standard_error": 15.802521854745114,
+      "n": 12
     },
     {
       "day_of_week": 2,
       "hour_of_day": 6,
-      "standard_error": 15.577238597352249,
+      "standard_error": 13.37739549183351,
       "n": 24
     },
     {
       "day_of_week": 2,
       "hour_of_day": 7,
-      "standard_error": 12.649110640673518,
-      "n": 12
+      "standard_error": 17.08243319347463,
+      "n": 7
     },
     {
       "day_of_week": 2,
       "hour_of_day": 8,
-      "standard_error": 13.494972608874969,
-      "n": 21
-    },
-    {
-      "day_of_week": 2,
-      "hour_of_day": 9,
-      "standard_error": 12.668671520535929,
-      "n": 15
-    },
-    {
-      "day_of_week": 2,
-      "hour_of_day": 10,
-      "standard_error": 14.085768242984615,
-      "n": 29
-    },
-    {
-      "day_of_week": 2,
-      "hour_of_day": 11,
-      "standard_error": 12.789218215516637,
-      "n": 27
-    },
-    {
-      "day_of_week": 2,
-      "hour_of_day": 12,
-      "standard_error": 8.318191371464573,
-      "n": 14
-    },
-    {
-      "day_of_week": 2,
-      "hour_of_day": 13,
-      "standard_error": 10.151789178731589,
-      "n": 17
-    },
-    {
-      "day_of_week": 2,
-      "hour_of_day": 14,
-      "standard_error": 10.658923408175138,
-      "n": 23
-    },
-    {
-      "day_of_week": 2,
-      "hour_of_day": 15,
-      "standard_error": 12.464019361992602,
-      "n": 23
-    },
-    {
-      "day_of_week": 2,
-      "hour_of_day": 16,
-      "standard_error": 9.672412085697939,
-      "n": 10
-    },
-    {
-      "day_of_week": 2,
-      "hour_of_day": 17,
-      "standard_error": 12.014328126793705,
-      "n": 44
-    },
-    {
-      "day_of_week": 2,
-      "hour_of_day": 18,
-      "standard_error": 10.538427849468894,
+      "standard_error": 12.22966129476264,
       "n": 26
     },
     {
       "day_of_week": 2,
-      "hour_of_day": 19,
-      "standard_error": 11.026936715758067,
+      "hour_of_day": 9,
+      "standard_error": 14.046430073232052,
+      "n": 14
+    },
+    {
+      "day_of_week": 2,
+      "hour_of_day": 10,
+      "standard_error": 12.732111634236745,
       "n": 25
     },
     {
       "day_of_week": 2,
-      "hour_of_day": 20,
-      "standard_error": 7.383503845211842,
+      "hour_of_day": 11,
+      "standard_error": 12.003948152246828,
+      "n": 18
+    },
+    {
+      "day_of_week": 2,
+      "hour_of_day": 12,
+      "standard_error": 10.429248811358887,
+      "n": 13
+    },
+    {
+      "day_of_week": 2,
+      "hour_of_day": 13,
+      "standard_error": 11.742553646356747,
+      "n": 28
+    },
+    {
+      "day_of_week": 2,
+      "hour_of_day": 14,
+      "standard_error": 12.061118863326657,
+      "n": 17
+    },
+    {
+      "day_of_week": 2,
+      "hour_of_day": 15,
+      "standard_error": 8.71305795443706,
+      "n": 27
+    },
+    {
+      "day_of_week": 2,
+      "hour_of_day": 16,
+      "standard_error": 14.568802284333465,
+      "n": 4
+    },
+    {
+      "day_of_week": 2,
+      "hour_of_day": 17,
+      "standard_error": 11.613436061869054,
+      "n": 48
+    },
+    {
+      "day_of_week": 2,
+      "hour_of_day": 18,
+      "standard_error": 9.823058236531004,
       "n": 31
+    },
+    {
+      "day_of_week": 2,
+      "hour_of_day": 19,
+      "standard_error": 7.162831412657557,
+      "n": 26
+    },
+    {
+      "day_of_week": 2,
+      "hour_of_day": 20,
+      "standard_error": 5.685074824272391,
+      "n": 33
     },
     {
       "day_of_week": 2,
       "hour_of_day": 21,
-      "standard_error": 11.032028152669405,
-      "n": 32
+      "standard_error": 7.92305337447469,
+      "n": 37
     },
     {
       "day_of_week": 2,
       "hour_of_day": 22,
-      "standard_error": 4.435438904952912,
-      "n": 31
+      "standard_error": 4.53227337837035,
+      "n": 23
     },
     {
       "day_of_week": 2,
       "hour_of_day": 23,
-      "standard_error": 2.1657507221460626,
-      "n": 21
+      "standard_error": 3.1688588903052572,
+      "n": 24
     },
     {
       "day_of_week": 3,
       "hour_of_day": 1,
-      "standard_error": 1.6300235409913706,
+      "standard_error": 3.13238556430514,
       "n": 44
     },
     {
       "day_of_week": 3,
       "hour_of_day": 2,
-      "standard_error": 1.164500152881315,
-      "n": 12
+      "standard_error": 1.286683937707919,
+      "n": 10
     },
     {
       "day_of_week": 3,
       "hour_of_day": 4,
-      "standard_error": 12.708077671120762,
-      "n": 15
+      "standard_error": 7.280558766173955,
+      "n": 18
     },
     {
       "day_of_week": 3,
       "hour_of_day": 5,
-      "standard_error": 13.836138738024623,
-      "n": 23
+      "standard_error": 9.61510750837768,
+      "n": 19
     },
     {
       "day_of_week": 3,
       "hour_of_day": 6,
-      "standard_error": 12.793064527313227,
-      "n": 16
+      "standard_error": 11.063883757954247,
+      "n": 15
     },
     {
       "day_of_week": 3,
       "hour_of_day": 7,
-      "standard_error": 12.47101254293948,
-      "n": 26
+      "standard_error": 14.241576837643745,
+      "n": 22
     },
     {
       "day_of_week": 3,
       "hour_of_day": 8,
-      "standard_error": 11.934651123342375,
-      "n": 13
+      "standard_error": 13.757350976200067,
+      "n": 17
     },
     {
       "day_of_week": 3,
       "hour_of_day": 9,
-      "standard_error": 13.94444760639944,
-      "n": 21
+      "standard_error": 10.115993936995679,
+      "n": 12
     },
     {
       "day_of_week": 3,
       "hour_of_day": 10,
-      "standard_error": 13.357677052237939,
-      "n": 24
+      "standard_error": 8.479309689500527,
+      "n": 18
     },
     {
       "day_of_week": 3,
       "hour_of_day": 11,
-      "standard_error": 10.750450805122965,
-      "n": 34
+      "standard_error": 12.162623555989304,
+      "n": 35
     },
     {
       "day_of_week": 3,
       "hour_of_day": 12,
-      "standard_error": 12.006149218113984,
-      "n": 21
+      "standard_error": 14.518297158446385,
+      "n": 15
     },
     {
       "day_of_week": 3,
       "hour_of_day": 13,
-      "standard_error": 16.15503927935946,
+      "standard_error": 10.338392183563963,
       "n": 17
     },
     {
       "day_of_week": 3,
       "hour_of_day": 14,
-      "standard_error": 9.501905435045737,
-      "n": 30
+      "standard_error": 18.196032211317227,
+      "n": 17
     },
     {
       "day_of_week": 3,
       "hour_of_day": 15,
-      "standard_error": 7.791756056922783,
-      "n": 23
+      "standard_error": 11.654894214010909,
+      "n": 31
     },
     {
       "day_of_week": 3,
       "hour_of_day": 16,
-      "standard_error": 10.897873020164823,
-      "n": 11
+      "standard_error": 10.606601717798213,
+      "n": 2
     },
     {
       "day_of_week": 3,
       "hour_of_day": 17,
-      "standard_error": 12.450212536651422,
-      "n": 56
+      "standard_error": 12.801765662658909,
+      "n": 49
     },
     {
       "day_of_week": 3,
       "hour_of_day": 18,
-      "standard_error": 9.891374308673477,
-      "n": 8
+      "standard_error": 9.381800563760766,
+      "n": 11
     },
     {
       "day_of_week": 3,
       "hour_of_day": 19,
-      "standard_error": 8.570085486634714,
-      "n": 48
+      "standard_error": 9.375226492990544,
+      "n": 40
     },
     {
       "day_of_week": 3,
       "hour_of_day": 20,
-      "standard_error": 6.135888102550236,
+      "standard_error": 6.817589908739208,
       "n": 19
     },
     {
       "day_of_week": 3,
       "hour_of_day": 21,
-      "standard_error": 9.743747779100506,
-      "n": 39
+      "standard_error": 8.706336789965128,
+      "n": 37
     },
     {
       "day_of_week": 3,
       "hour_of_day": 22,
-      "standard_error": 5.134759052627612,
-      "n": 44
+      "standard_error": 6.765499292463825,
+      "n": 46
     },
     {
       "day_of_week": 3,
       "hour_of_day": 23,
-      "standard_error": 2.915136997709545,
-      "n": 23
+      "standard_error": 2.3828685817859694,
+      "n": 27
     },
     {
       "day_of_week": 4,
       "hour_of_day": 0,
-      "standard_error": 3.9761191895520196,
-      "n": 7
+      "standard_error": 1.728840330651992,
+      "n": 10
     },
     {
       "day_of_week": 4,
       "hour_of_day": 1,
-      "standard_error": 2.0880613017821097,
-      "n": 25
+      "standard_error": 1.4702171477501076,
+      "n": 26
     },
     {
       "day_of_week": 4,
       "hour_of_day": 3,
-      "standard_error": 5.656854249492381,
-      "n": 2
+      "standard_error": 7.4565407529228995,
+      "n": 6
     },
     {
       "day_of_week": 4,
       "hour_of_day": 4,
-      "standard_error": 11.180339887498949,
-      "n": 9
+      "standard_error": 8.732491640786739,
+      "n": 13
     },
     {
       "day_of_week": 4,
       "hour_of_day": 5,
-      "standard_error": 10.723805294763608,
-      "n": 9
+      "standard_error": 6.855102059227437,
+      "n": 12
     },
     {
       "day_of_week": 4,
       "hour_of_day": 6,
-      "standard_error": 13.507281011225222,
-      "n": 23
+      "standard_error": 14.264051244114937,
+      "n": 20
     },
     {
       "day_of_week": 4,
       "hour_of_day": 7,
-      "standard_error": 13.421419556961052,
-      "n": 19
+      "standard_error": 13.769380281382794,
+      "n": 16
     },
     {
       "day_of_week": 4,
       "hour_of_day": 8,
-      "standard_error": 10.026354161796688,
+      "standard_error": 8.366600265340756,
       "n": 9
     },
     {
       "day_of_week": 4,
       "hour_of_day": 9,
-      "standard_error": 12.002967344420508,
-      "n": 27
+      "standard_error": 11.909814362991538,
+      "n": 30
     },
     {
       "day_of_week": 4,
       "hour_of_day": 10,
-      "standard_error": 10.582662879596441,
-      "n": 24
+      "standard_error": 14.50705157688996,
+      "n": 12
     },
     {
       "day_of_week": 4,
       "hour_of_day": 11,
-      "standard_error": 12.099490105732285,
-      "n": 19
-    },
-    {
-      "day_of_week": 4,
-      "hour_of_day": 12,
-      "standard_error": 8.984724521390442,
-      "n": 14
-    },
-    {
-      "day_of_week": 4,
-      "hour_of_day": 13,
-      "standard_error": 11.785247706012102,
-      "n": 36
-    },
-    {
-      "day_of_week": 4,
-      "hour_of_day": 15,
-      "standard_error": 13.22190279234772,
-      "n": 19
-    },
-    {
-      "day_of_week": 4,
-      "hour_of_day": 16,
-      "standard_error": 11.062064953965494,
-      "n": 18
-    },
-    {
-      "day_of_week": 4,
-      "hour_of_day": 17,
-      "standard_error": 14.11440839059591,
+      "standard_error": 15.687202398398481,
       "n": 27
     },
     {
       "day_of_week": 4,
+      "hour_of_day": 12,
+      "standard_error": 13.071635209828322,
+      "n": 17
+    },
+    {
+      "day_of_week": 4,
+      "hour_of_day": 13,
+      "standard_error": 13.396259033684029,
+      "n": 41
+    },
+    {
+      "day_of_week": 4,
+      "hour_of_day": 15,
+      "standard_error": 10.346496991735899,
+      "n": 16
+    },
+    {
+      "day_of_week": 4,
+      "hour_of_day": 16,
+      "standard_error": 14.61768335498709,
+      "n": 25
+    },
+    {
+      "day_of_week": 4,
+      "hour_of_day": 17,
+      "standard_error": 11.089745539927906,
+      "n": 19
+    },
+    {
+      "day_of_week": 4,
       "hour_of_day": 18,
-      "standard_error": 9.663508638661538,
+      "standard_error": 12.29495863779697,
       "n": 23
     },
     {
       "day_of_week": 4,
       "hour_of_day": 19,
-      "standard_error": 8.755624972608675,
-      "n": 27
-    },
-    {
-      "day_of_week": 4,
-      "hour_of_day": 20,
-      "standard_error": 10.939385311214894,
+      "standard_error": 9.868384742276863,
       "n": 42
     },
     {
       "day_of_week": 4,
+      "hour_of_day": 20,
+      "standard_error": 8.887096702797717,
+      "n": 41
+    },
+    {
+      "day_of_week": 4,
       "hour_of_day": 21,
-      "standard_error": 6.890781008218576,
-      "n": 32
+      "standard_error": 8.905839572697436,
+      "n": 31
     },
     {
       "day_of_week": 4,
       "hour_of_day": 22,
-      "standard_error": 6.964330114188582,
-      "n": 33
+      "standard_error": 5.3997461111163485,
+      "n": 32
     },
     {
       "day_of_week": 4,
       "hour_of_day": 23,
-      "standard_error": 6.362548985926056,
-      "n": 44
+      "standard_error": 5.555167522405734,
+      "n": 38
     },
     {
       "day_of_week": 5,
       "hour_of_day": 0,
-      "standard_error": 2.826115373542836,
-      "n": 18
+      "standard_error": 5.721476567954033,
+      "n": 17
     },
     {
       "day_of_week": 5,
       "hour_of_day": 1,
-      "standard_error": 4.76794854558366,
-      "n": 16
+      "standard_error": 5.0903599780253606,
+      "n": 18
     },
     {
       "day_of_week": 5,
       "hour_of_day": 2,
-      "standard_error": 2.2809240187005284,
+      "standard_error": 2.275185835978084,
       "n": 18
     },
     {
       "day_of_week": 5,
       "hour_of_day": 4,
-      "standard_error": 10.600273084863627,
-      "n": 20
-    },
-    {
-      "day_of_week": 5,
-      "hour_of_day": 5,
-      "standard_error": 11.515689780083132,
-      "n": 9
-    },
-    {
-      "day_of_week": 5,
-      "hour_of_day": 6,
-      "standard_error": 9.370282695959487,
-      "n": 14
-    },
-    {
-      "day_of_week": 5,
-      "hour_of_day": 7,
-      "standard_error": 13.144496102086903,
-      "n": 9
-    },
-    {
-      "day_of_week": 5,
-      "hour_of_day": 8,
-      "standard_error": 11.98870996674232,
+      "standard_error": 10.044691798822567,
       "n": 16
     },
     {
       "day_of_week": 5,
+      "hour_of_day": 5,
+      "standard_error": 12.480530291763904,
+      "n": 11
+    },
+    {
+      "day_of_week": 5,
+      "hour_of_day": 6,
+      "standard_error": 12.816005617976296,
+      "n": 4
+    },
+    {
+      "day_of_week": 5,
+      "hour_of_day": 7,
+      "standard_error": 14.571661996262929,
+      "n": 3
+    },
+    {
+      "day_of_week": 5,
+      "hour_of_day": 8,
+      "standard_error": 11.78312799146126,
+      "n": 20
+    },
+    {
+      "day_of_week": 5,
       "hour_of_day": 9,
-      "standard_error": 12.752896284231422,
+      "standard_error": 12.759725939870576,
       "n": 12
     },
     {
       "day_of_week": 5,
       "hour_of_day": 10,
-      "standard_error": 14.743218780171448,
-      "n": 16
+      "standard_error": 8.436931799049828,
+      "n": 12
     },
     {
       "day_of_week": 5,
       "hour_of_day": 11,
-      "standard_error": 9.445902351023497,
-      "n": 27
+      "standard_error": 11.130328410532897,
+      "n": 20
     },
     {
       "day_of_week": 5,
       "hour_of_day": 12,
-      "standard_error": 15.396969398770224,
-      "n": 10
+      "standard_error": 13.947520687682573,
+      "n": 16
     },
     {
       "day_of_week": 5,
       "hour_of_day": 14,
-      "standard_error": 10.701091952878322,
-      "n": 34
-    },
-    {
-      "day_of_week": 5,
-      "hour_of_day": 15,
-      "standard_error": 12.013880860626733,
-      "n": 7
-    },
-    {
-      "day_of_week": 5,
-      "hour_of_day": 16,
-      "standard_error": 16.03876024090888,
-      "n": 18
-    },
-    {
-      "day_of_week": 5,
-      "hour_of_day": 17,
-      "standard_error": 14.2730269475544,
-      "n": 19
-    },
-    {
-      "day_of_week": 5,
-      "hour_of_day": 18,
-      "standard_error": 10.145606602531625,
-      "n": 21
-    },
-    {
-      "day_of_week": 5,
-      "hour_of_day": 19,
-      "standard_error": 10.90181971978139,
-      "n": 18
-    },
-    {
-      "day_of_week": 5,
-      "hour_of_day": 20,
-      "standard_error": 7.0191029532132,
-      "n": 27
-    },
-    {
-      "day_of_week": 5,
-      "hour_of_day": 21,
-      "standard_error": 10.314273433121791,
+      "standard_error": 11.633038562942037,
       "n": 29
     },
     {
       "day_of_week": 5,
+      "hour_of_day": 15,
+      "standard_error": 7.569676347110224,
+      "n": 5
+    },
+    {
+      "day_of_week": 5,
+      "hour_of_day": 16,
+      "standard_error": 14.455020548156238,
+      "n": 21
+    },
+    {
+      "day_of_week": 5,
+      "hour_of_day": 17,
+      "standard_error": 13.913833808186371,
+      "n": 18
+    },
+    {
+      "day_of_week": 5,
+      "hour_of_day": 18,
+      "standard_error": 8.619782688372789,
+      "n": 18
+    },
+    {
+      "day_of_week": 5,
+      "hour_of_day": 19,
+      "standard_error": 12.003898002376642,
+      "n": 19
+    },
+    {
+      "day_of_week": 5,
+      "hour_of_day": 20,
+      "standard_error": 9.271564310401173,
+      "n": 21
+    },
+    {
+      "day_of_week": 5,
+      "hour_of_day": 21,
+      "standard_error": 9.529872063068924,
+      "n": 26
+    },
+    {
+      "day_of_week": 5,
       "hour_of_day": 22,
-      "standard_error": 9.033362200922822,
-      "n": 50
+      "standard_error": 11.019128017498021,
+      "n": 29
     },
     {
       "day_of_week": 5,
       "hour_of_day": 23,
-      "standard_error": 4.499694739340964,
-      "n": 14
+      "standard_error": 6.000487309645473,
+      "n": 19
     },
     {
       "day_of_week": 6,
       "hour_of_day": 0,
-      "standard_error": 2.217355782608345,
+      "standard_error": 3.2015621187164243,
       "n": 4
     },
     {
       "day_of_week": 6,
       "hour_of_day": 1,
-      "standard_error": 9.147148718061256,
-      "n": 14
-    },
-    {
-      "day_of_week": 6,
-      "hour_of_day": 4,
-      "standard_error": 8.07383509782143,
-      "n": 14
-    },
-    {
-      "day_of_week": 6,
-      "hour_of_day": 5,
-      "standard_error": 3.4086724129853865,
-      "n": 7
-    },
-    {
-      "day_of_week": 6,
-      "hour_of_day": 6,
-      "standard_error": 10.117435445803448,
+      "standard_error": 3.847076812334269,
       "n": 16
     },
     {
       "day_of_week": 6,
+      "hour_of_day": 4,
+      "standard_error": 7.593857166596345,
+      "n": 13
+    },
+    {
+      "day_of_week": 6,
+      "hour_of_day": 5,
+      "standard_error": 7.087253817006039,
+      "n": 16
+    },
+    {
+      "day_of_week": 6,
+      "hour_of_day": 6,
+      "standard_error": 8.7338085486634,
+      "n": 17
+    },
+    {
+      "day_of_week": 6,
       "hour_of_day": 7,
-      "standard_error": 11.384199576606166,
-      "n": 21
+      "standard_error": 13.651653638252895,
+      "n": 17
     },
     {
       "day_of_week": 6,
       "hour_of_day": 8,
-      "standard_error": 11.028551462835953,
-      "n": 20
+      "standard_error": 10.160885283457821,
+      "n": 13
     },
     {
       "day_of_week": 6,
       "hour_of_day": 9,
-      "standard_error": 10.966021301657488,
-      "n": 24
-    },
-    {
-      "day_of_week": 6,
-      "hour_of_day": 10,
-      "standard_error": 14.831754865185454,
-      "n": 15
-    },
-    {
-      "day_of_week": 6,
-      "hour_of_day": 11,
-      "standard_error": 11.927606896096396,
+      "standard_error": 12.259422796096368,
       "n": 27
     },
     {
       "day_of_week": 6,
+      "hour_of_day": 10,
+      "standard_error": 11.296649313592315,
+      "n": 21
+    },
+    {
+      "day_of_week": 6,
+      "hour_of_day": 11,
+      "standard_error": 9.52550755170805,
+      "n": 17
+    },
+    {
+      "day_of_week": 6,
       "hour_of_day": 12,
-      "standard_error": 11.490307824990742,
+      "standard_error": 9.577676339173872,
       "n": 24
     },
     {
       "day_of_week": 6,
       "hour_of_day": 14,
-      "standard_error": 13.825865088830625,
-      "n": 45
+      "standard_error": 11.329394176821332,
+      "n": 30
     },
     {
       "day_of_week": 6,
       "hour_of_day": 15,
-      "standard_error": 14.00158721161442,
+      "standard_error": 12.274990705715293,
       "n": 36
     },
     {
       "day_of_week": 6,
       "hour_of_day": 16,
-      "standard_error": 13.693995966317702,
-      "n": 37
+      "standard_error": 11.655199619093597,
+      "n": 30
     },
     {
       "day_of_week": 6,
       "hour_of_day": 17,
-      "standard_error": 11.885921599738586,
-      "n": 28
-    },
-    {
-      "day_of_week": 6,
-      "hour_of_day": 18,
-      "standard_error": 11.616418401150513,
-      "n": 17
-    },
-    {
-      "day_of_week": 6,
-      "hour_of_day": 19,
-      "standard_error": 11.139512762627662,
-      "n": 22
-    },
-    {
-      "day_of_week": 6,
-      "hour_of_day": 20,
-      "standard_error": 9.781516379276923,
+      "standard_error": 12.511533141004804,
       "n": 27
     },
     {
       "day_of_week": 6,
-      "hour_of_day": 21,
-      "standard_error": 9.346657156438338,
+      "hour_of_day": 18,
+      "standard_error": 10.065059300332603,
+      "n": 29
+    },
+    {
+      "day_of_week": 6,
+      "hour_of_day": 19,
+      "standard_error": 8.316526641850874,
+      "n": 26
+    },
+    {
+      "day_of_week": 6,
+      "hour_of_day": 20,
+      "standard_error": 10.624970588194586,
       "n": 25
     },
     {
       "day_of_week": 6,
+      "hour_of_day": 21,
+      "standard_error": 9.324359396812177,
+      "n": 30
+    },
+    {
+      "day_of_week": 6,
       "hour_of_day": 22,
-      "standard_error": 9.082451619433755,
-      "n": 32
+      "standard_error": 8.846606505162502,
+      "n": 38
     },
     {
       "day_of_week": 6,
       "hour_of_day": 23,
-      "standard_error": 6.143486326380506,
-      "n": 22
+      "standard_error": 7.68188752920765,
+      "n": 27
     },
     {
       "day_of_week": 7,
       "hour_of_day": 0,
-      "standard_error": 5.836665714829544,
-      "n": 15
+      "standard_error": 6.64073905560807,
+      "n": 19
     },
     {
       "day_of_week": 7,
       "hour_of_day": 1,
-      "standard_error": 2.753785273643051,
-      "n": 4
+      "standard_error": 4.546060565661952,
+      "n": 6
     },
     {
       "day_of_week": 7,
       "hour_of_day": 2,
-      "standard_error": 3.5691618422477895,
-      "n": 29
+      "standard_error": 6.242605867965685,
+      "n": 38
     },
     {
       "day_of_week": 7,
       "hour_of_day": 3,
-      "standard_error": 1.0,
-      "n": 4
-    },
-    {
-      "day_of_week": 7,
-      "hour_of_day": 4,
-      "standard_error": 5.590405314370987,
-      "n": 20
-    },
-    {
-      "day_of_week": 7,
-      "hour_of_day": 6,
-      "standard_error": 4.687184332805461,
-      "n": 12
-    },
-    {
-      "day_of_week": 7,
-      "hour_of_day": 7,
-      "standard_error": 8.803137968658566,
-      "n": 15
-    },
-    {
-      "day_of_week": 7,
-      "hour_of_day": 8,
-      "standard_error": 9.1104335791443,
+      "standard_error": 6.164414002968976,
       "n": 5
     },
     {
       "day_of_week": 7,
+      "hour_of_day": 4,
+      "standard_error": 4.952018454376637,
+      "n": 28
+    },
+    {
+      "day_of_week": 7,
+      "hour_of_day": 6,
+      "standard_error": 5.599319686567373,
+      "n": 15
+    },
+    {
+      "day_of_week": 7,
+      "hour_of_day": 7,
+      "standard_error": 7.326243659191671,
+      "n": 26
+    },
+    {
+      "day_of_week": 7,
+      "hour_of_day": 8,
+      "standard_error": 11.92835756865606,
+      "n": 8
+    },
+    {
+      "day_of_week": 7,
       "hour_of_day": 9,
-      "standard_error": 10.22135952191246,
-      "n": 22
+      "standard_error": 13.400706972709353,
+      "n": 20
     },
     {
       "day_of_week": 7,
       "hour_of_day": 10,
-      "standard_error": 12.722331056448791,
-      "n": 23
+      "standard_error": 12.837505149425976,
+      "n": 26
     },
     {
       "day_of_week": 7,
       "hour_of_day": 11,
-      "standard_error": 13.153018434541705,
-      "n": 33
+      "standard_error": 12.037185973218415,
+      "n": 26
     },
     {
       "day_of_week": 7,
       "hour_of_day": 12,
-      "standard_error": 12.859311986335223,
-      "n": 21
+      "standard_error": 10.720719356900066,
+      "n": 17
     },
     {
       "day_of_week": 7,
       "hour_of_day": 13,
-      "standard_error": 7.4921204029212,
-      "n": 14
+      "standard_error": 12.036308706273998,
+      "n": 11
     },
     {
       "day_of_week": 7,
       "hour_of_day": 14,
-      "standard_error": 13.221954309313574,
+      "standard_error": 13.381706758017668,
       "n": 33
     },
     {
       "day_of_week": 7,
       "hour_of_day": 15,
-      "standard_error": 12.09659602233766,
-      "n": 27
+      "standard_error": 12.436505404118419,
+      "n": 24
     },
     {
       "day_of_week": 7,
       "hour_of_day": 16,
-      "standard_error": 12.01255753208027,
+      "standard_error": 12.115089129485785,
       "n": 26
     },
     {
       "day_of_week": 7,
       "hour_of_day": 17,
-      "standard_error": 10.48413177270699,
-      "n": 44
-    },
-    {
-      "day_of_week": 7,
-      "hour_of_day": 18,
-      "standard_error": 11.949944334206887,
-      "n": 19
-    },
-    {
-      "day_of_week": 7,
-      "hour_of_day": 19,
-      "standard_error": 8.234949540792217,
-      "n": 33
-    },
-    {
-      "day_of_week": 7,
-      "hour_of_day": 20,
-      "standard_error": 8.94814164509225,
-      "n": 44
-    },
-    {
-      "day_of_week": 7,
-      "hour_of_day": 21,
-      "standard_error": 9.523717824526365,
-      "n": 37
-    },
-    {
-      "day_of_week": 7,
-      "hour_of_day": 22,
-      "standard_error": 6.37699189595107,
+      "standard_error": 10.954919279038817,
       "n": 40
     },
     {
       "day_of_week": 7,
+      "hour_of_day": 18,
+      "standard_error": 11.081967334368027,
+      "n": 25
+    },
+    {
+      "day_of_week": 7,
+      "hour_of_day": 19,
+      "standard_error": 10.0148284300249,
+      "n": 43
+    },
+    {
+      "day_of_week": 7,
+      "hour_of_day": 20,
+      "standard_error": 7.072447397833507,
+      "n": 41
+    },
+    {
+      "day_of_week": 7,
+      "hour_of_day": 21,
+      "standard_error": 7.998750845160528,
+      "n": 52
+    },
+    {
+      "day_of_week": 7,
+      "hour_of_day": 22,
+      "standard_error": 6.782411622698233,
+      "n": 43
+    },
+    {
+      "day_of_week": 7,
       "hour_of_day": 23,
-      "standard_error": 4.458183130536119,
-      "n": 36
+      "standard_error": 4.154296478570522,
+      "n": 38
     }
   ]
 }
